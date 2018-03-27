@@ -1,92 +1,1061 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" /> 
-	<link rel="stylesheet" type="text/css" href="css.css">
-<title>Fiszki</title>
-</head>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-	<ul id="org">
-		<li><a  href="#">Luke to mój najlepszy przyjaciel.</a>
-			<ul class="ang">
-				<li><a href="#">Luke is my best friend.</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Cześć James! Jak się masz?</a>
-			<ul class="ang">
-				<li><a href="#">Hello James! How are you doing?</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Nie śmiej się z niej!</a>
-			<ul class="ang">
-				<li><a href="#">Don't laugh at her!</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Z kim rozmawiałeś?</a>
-			<ul class="ang">
-				<li><a href="#">Who were you talking to?</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Cześć! Do zobaczenia!</a>
-			<ul class="ang">
-				<li><a href="#">Bye! See you later!</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Lubię poznawać nowych ludzi.</a>
-			<ul class="ang">
-				<li><a href="#">I like to meet new people.</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Zadzwonisz do mnie?</a>
-			<ul class="ang">
-				<li><a href="#">Will you call me?</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Mógłbyś zrobić mi, proszę, filiżankę herbaty?</a>
-			<ul class="ang">
-				<li><a href="#">Could you make me a cup of tea, please?</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Masz już dużo zabawek.</a>
-			<ul class="ang">
-				<li><a href="#">You have a lot of toys already.</a></li>
-			</ul>
-		</li>			
-		<li><a href="#">Co robisz wieczorami?</a>
-			<ul class="ang">
-				<li><a href="#">What do you do in the evenings?</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Potrafię grać na pianinie.</a>
-			<ul class="ang">
-				<li><a href="#">I can play the piano.</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Chcę być astronautą.</a>
-			<ul class="ang">
-				<li><a href="#">I want to be an astronaut.</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Czy mogę zadać jedno pytanie?</a>
-			<ul class="ang">
-				<li><a href="#">May I ask one question?</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Musisz powiedzieć co się stało.</a>
-			<ul class="ang">
-				<li><a href="#">You have to tell me what happened.</a></li>
-			</ul>
-		</li>
-		<li><a href="#">Pozwól, że pokażę ci nasze zdjęcia z wakacji.</a>
-			<ul class="ang">
-				<li><a href="#">Let me show you our holiday photos.</a></li>
-			</ul>
-		</li>
-	</ul>
-	
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-</body>
+        <!-- Add your site or application content here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vendor/prefixfree.min.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
+        <ul id="org">
+        <li><a  href="#">Luke to mój najlepszy przyjaciel.</a>
+            <ul class="ang">
+                <li><a href="#">Luke is my best friend.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Cześć James! Jak się masz?</a>
+            <ul class="ang">
+                <li><a href="#">Hello James! How are you doing?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nie śmiej się z niej!</a>
+            <ul class="ang">
+                <li><a href="#">Don't laugh at her!</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Z kim rozmawiałeś?</a>
+            <ul class="ang">
+                <li><a href="#">Who were you talking to?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Cześć! Do zobaczenia!</a>
+            <ul class="ang">
+                <li><a href="#">Bye! See you later!</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Lubię poznawać nowych ludzi.</a>
+            <ul class="ang">
+                <li><a href="#">I like to meet new people.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Zadzwonisz do mnie?</a>
+            <ul class="ang">
+                <li><a href="#">Will you call me?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mógłbyś zrobić mi, proszę, filiżankę herbaty?</a>
+            <ul class="ang">
+                <li><a href="#">Could you make me a cup of tea, please?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Masz już dużo zabawek.</a>
+            <ul class="ang">
+                <li><a href="#">You have a lot of toys already.</a></li>
+            </ul>
+        </li>           
+        <li><a href="#">Co robisz wieczorami?</a>
+            <ul class="ang">
+                <li><a href="#">What do you do in the evenings?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Potrafię grać na pianinie.</a>
+            <ul class="ang">
+                <li><a href="#">I can play the piano.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Chcę być astronautą.</a>
+            <ul class="ang">
+                <li><a href="#">I want to be an astronaut.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Czy mogę zadać jedno pytanie?</a>
+            <ul class="ang">
+                <li><a href="#">May I ask one question?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Musisz powiedzieć co się stało.</a>
+            <ul class="ang">
+                <li><a href="#">You have to tell me what happened.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Pozwól, że pokażę ci nasze zdjęcia z wakacji.</a>
+            <ul class="ang">
+                <li><a href="#">Let me show you our holiday photos.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mark mówi płynnie po niemiecku.</a>
+            <ul class="ang">
+                <li><a href="#">Mark speaks German fluently.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Widzisz go?</a>
+            <ul class="ang">
+                <li><a href="#"></a>Can you see him?</li>
+            </ul>
+        </li>
+        <li><a href="#">Nie dotykaj mnie!</a>
+            <ul class="ang">
+                <li><a href="#"></a>Don't touch me!</li>
+            </ul>
+        </li>
+        <li><a href="#">Rozpocznijmy nasze spotkanie.</a>
+            <ul class="ang">
+                <li><a href="#">Let's begin our meeting.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Siadaj gdzie chcesz.</a>
+            <ul class="ang">
+                <li><a href="#">Sit wherever you like.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Stań tam, proszę.</a>
+            <ul class="ang">
+                <li><a href="#">Stand over there, please.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mów głośniej, nie słyszę cię.</a>
+            <ul class="ang">
+                <li><a href="#">Speak louder, I can't hear you.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nie dam ci więcej pieniędzy.</a>
+            <ul class="ang">
+                <li><a href="#">I will give no more money.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Weź kurtkę, jest zimno.</a>
+            <ul class="ang">
+                <li><a href="#">Take a jacket, it is cold.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Zobacz, tam są.</a>
+            <ul class="ang">
+                <li><a href="#">Look, there they are.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mieszkam w Warszawie.</a>
+            <ul class="ang">
+                <li><a href="#">I live in Warsaw.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Trzymaj mleko w lodówce, jeśli nie chcesz, żeby się popsuło.</a>
+            <ul class="ang">
+                <li><a href="#">Keep the milk in the fridge if you don't want it to go off.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Pomyśl zanim zaczniesz działać.</a>
+            <ul class="ang">
+                <li><a href="#">Think before you act.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Moja siostrzenica bardzo urosła, odkąd ją ostatnio widziałem.</a>
+            <ul class="ang">
+                <li><a href="#">My niece has really grown since I last saw her.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">To co powiedział było bardzo ogólne.</a>
+            <ul class="ang">
+                <li><a href="#">What he said was very general.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Obudziła wszystich.</a>
+            <ul class="ang">
+                <li><a href="#">She woke everybody up.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Musisz wybrać między tymi dwiema opcjami.</a>
+            <ul class="ang">
+                <li><a href="#">You must choose between those two options.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Podoba mi się ich nowy dom.</a>
+            <ul class="ang">
+                <li><a href="#"I like their new house.></a></li>
+            </ul>
+        </li>
+        <li><a href="#">Dla mnie to nie ma znaczenia - ty zdecyduj.</a>
+            <ul class="ang">
+                <li><a href="#">It doesn't matter for me - you decide.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Wierzysz jej?</a>
+            <ul class="ang">
+                <li><a href="#">Do you believe her?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Powienieneś obciąć włosy.</a>
+            <ul class="ang">
+                <li><a href="#">You should cut your hair.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nie stłucz tego.</a>
+            <ul class="ang">
+                <li><a href="#">Don't break that.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mark naprawił nasz samochód.</a>
+            <ul class="ang">
+                <li><a href="#">Mark ficed our car.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mógłby pan powtórzyćostatnie pytanie?</a>
+            <ul class="ang">
+                <li><a href="#">Could you repeat your last question?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Jakiego rodzaju pomocy potrzebujesz?</a>
+            <ul class="ang">
+                <li><a href="#">What kind of help do you need?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">John zareagował bardzo szybko.</a>
+            <ul class="ang">
+                <li><a href="#">John reacted very quickly.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ona łatwo się męczy.</a>
+            <ul class="ang">
+                <li><a href="#">She gets tired easily.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ona czuje się dobrze.</a>
+            <ul class="ang">
+                <li><a href="#">She's feeling well.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Dali mi niewłaściwą kurtkę.</a>
+            <ul class="ang">
+                <li><a href="#">They gave me the wrong coat.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">O czym mówicie?</a>
+            <ul class="ang">
+                <li><a href="#">What are you talking about?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Prawie wygraliśmy.</a>
+            <ul class="ang">
+                <li><a href="#">We almost won.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ann i George biorą ślub.</a>
+            <ul class="ang">
+                <li><a href="#">Ann and George are getting married.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ja już tam byłem, ale ona jeszcze nie.</a>
+            <ul class="ang">
+                <li><a href="#">I've already been there but she hasn't.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ten dom należy do mnie.</a>
+            <ul class="ang">
+                <li><a href="#">The house belongs to me.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ten dysk zawiera wszystkie potrzebne dane.</a>
+            <ul class="ang">
+                <li><a href="#">This disc contains all the necessary data.</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Powinieneś im podziękować.</a>
+            <ul class="ang">
+                <li><a href="#">You should to thank them.</a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+        <li><a href="#"></a>
+            <ul class="ang">
+                <li><a href="#"></a></li>
+            </ul>
+        </li>
+
+
+    </body>
 </html>

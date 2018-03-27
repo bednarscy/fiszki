@@ -2,8 +2,9 @@
 		list-style-type: none;
 		text-decoration: none;
 	}
-	 li {
-	 	padding: 15px;
+	body {background-color: #CFD8DC;}
+	 ul {
+		color:#CFD8DC;
 	}
 	#org li .ang {
 		display: none;
@@ -11,6 +12,7 @@
 			
 	#org li:hover .ang {
 		display: inline-flex;
+		width: 300px;
 		padding-left: 100px;
 	}
 			
