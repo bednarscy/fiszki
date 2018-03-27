@@ -2,17 +2,30 @@
 		list-style-type: none;
 		text-decoration: none;
 	}
-	body {background-color: #CFD8DC;}
-	 ul {
-		color:#CFD8DC;
+
+	body
+	 {
+	 	background-color: #ccdbdc;
 	}
+
 	#org li .ang {
 		display: none;
 	}
 			
 	#org li:hover .ang {
 		display: inline-flex;
-		width: 300px;
+		text-shadow: 1px 1px 2px #444444;		
 		padding-left: 100px;
+	}
+	li a 
+	{
+		color: #222222;
+		line-height: 25px;
+		margin: 25px;
+		
+	}
+	#org li a:hover 
+	{
+		text-decoration: underline;	
 	}
 			
