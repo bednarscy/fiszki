@@ -1,0 +1,17 @@
+*{
+		list-style-type: none;
+		text-decoration: none;
+	}
+	 li {
+	 	padding: 15px;
+	 	background-color: red;
+	}
+	#org li .ang {
+		display: none;
+	}
+			
+	#org li:hover .ang {
+		display: inline-flex;
+		padding-left: 100px;
+	}
+			
